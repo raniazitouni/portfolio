@@ -24,8 +24,8 @@ const Computers = ({isMobile}) => {
       />
       {/* this the component that we can pass to , the object */}
       <primitive object={computer.scene}
-       scale={isMobile ?  0.7 :0.75}
-       position={isMobile ? [0 , -2 , -2.2 ] : [0, -2.5 , -1.5]}
+       scale={isMobile ?  0.5:0.75}
+       position={isMobile ? [0 , -2, 0 ] : [0, -2.5 , -1.5]}
        rotation = {[-0.01,-0.9,-0.1]}/>
     </mesh>
   )
